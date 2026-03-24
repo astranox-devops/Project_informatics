@@ -2,45 +2,58 @@
 <html lang="en">
 <head>
     <title>Contact</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<!-- HEADER + NAVBAR -->
 <header>
-    <h1>Contact Us</h1>
+    <h1>AI Information Site</h1>
     <nav>
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="details.html">Details</a>
-         <a href="contact.html">Contact</a>
-         <a href="thanku.html">Thanku</a>
+        <a href="contact.html">Contact</a>
     </nav>
 </header>
 
+<!-- MAIN CONTENT -->
 <main>
-    <div class="img-box">
-    <h2>Feedback Form</h2>
-    <hr
-  <form action="https://formsubmit.co/YOUR-astra2devnoxL@gmail.com" method="POST">
 
-    <input type="text" name="name" placeholder="Your Name" required><br><br>
+<div class="form-box">
+    <form action="https://formsubmit.co/astr2devnox@gmail.com" method="POST">
 
-    <input type="email" name="email" placeholder="Your Email" required><br><br>
+        <h2>Contact Us</h2>
 
-    <textarea name="message" placeholder="Your Message" required></textarea><br><br>
+        <!-- Name -->
+        <label>Name:</label><br>
+        <input type="text" name="name" required><br><br>
 
-    <!-- Redirect after submit -->
-    <input type="hidden" name="_next" value="https://github.com/astranox-devops/Project_informatics/blob/main/thanku.html">
+        <!-- Email -->
+        <label>Email:</label><br>
+        <input type="email" name="email" required><br><br>
 
-    <!-- Disable captcha -->
-    <input type="hidden" name="_captcha" value="false">
+        <!-- Message -->
+        <label>Message:</label><br>
+        <textarea name="message" required></textarea><br><br>
 
-    <button type="submit">Send</button>
+        <!-- Redirect to your page -->
+        <input type="hidden" name="_next" value="https://astranox-devops.github.io/Project_informatics/thanku.html">
 
-</form>
-    </div>
+        <!-- Disable captcha -->
+        <input type="hidden" name="_captcha" value="false">
+
+        <!-- Anti-spam -->
+        <input type="text" name="_honey" style="display:none">
+
+        <button type="submit">Send Message</button>
+
+    </form>
+</div>
+
 </main>
 
+<!-- FOOTER -->
 <footer>
     <p>© 2026 My Project</p>
 </footer>
