@@ -1,8 +1,10 @@
 body {
-    font-family: Arial;
+    font-family: cursive;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    color: aliceblue;
+    background-color: #242121;
+    text-align: center;
 }
 
 header {
@@ -31,4 +33,28 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
+}
+.img-box {
+    background-color: #e0e0e0;   /* rectangle background */
+    padding: 15px;               /* space around image */
+    border-radius: 15px;         /* rounded corners */
+    width: fit-content;
+    box-align: center;
+}
+
+.img-box img {
+    width: 400px;
+    border-radius: 10px;         /* round image corners */
+}
+.img-box {
+    background-color: rgb(84, 84, 84);
+    padding: 15px;
+    border-radius: 15px;
+    width: fit-content;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    box-align: center;
+}
+.img-box {
+    margin: 20px auto;
+    text-align: center;
 }
